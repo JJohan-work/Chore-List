@@ -19,5 +19,9 @@ namespace ToDoList.Models
     {
       _instances.Clear();
     }
+    public static void SetAll(List<Item> list)
+    {
+      _instances = list;
+    }
   }
 }
